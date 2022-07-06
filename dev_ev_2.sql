@@ -1,12 +1,13 @@
 -- pregunta 1
 -- Cargar el respaldo de la base de datos unidad2.sql.
-
-
-
-
-
-
-
+CREATE DATABASE unidad2
+    WITH
+    OWNER = mariajosewelkner
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'C'
+    LC_CTYPE = 'C'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;
 
 -- pregunta 2
 -- -- El cliente usuario01 ha realizado la siguiente compra:
